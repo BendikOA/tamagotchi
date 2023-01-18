@@ -47,16 +47,13 @@ const Navbar = () => {
             <div className={nav ? "sm:hidden absolute top-0 left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300 bg-fixed bg-center bg-cover custom-img3" : "sm:hidden absolute top-[-1000px] left-0 right-0 bottom-0 flex justify-center items-center w-full h-screen text-center ease-in duration-300 bg-fixed bg-center bg-cover custom-img3"}>
             <ul className="pb-12 mt-10 text-gray-600 ">
                 <li className="font-mainfont font-semibold p-4 text-2xl border-2 border-gray-600  m-4 ">
-                    <Link href="#" onClick={handleNav}>tamagotchi History</Link>
+                    <Link href="./" onClick={handleNav}>tamagotchi</Link>
                 </li>
                 <li className="font-mainfont font-semibold p-4 text-2xl border-2 border-gray-600  m-4 ">
-                <Link href="#3d" onClick={handleNav}>gallery</Link>
+                <Link href="/gallery" onClick={handleNav}>gallery</Link>
                 </li>
                 <li className="font-mainfont font-semibold p-4 text-2xl  border-2 border-gray-600 m-4 ">
-                    <Link href="#music" onClick={handleNav}>types</Link>
-                </li>
-                <li className="font-mainfont font-semibold p-4 text-2xl border-2 border-gray-600 m-4 ">
-                    <Link href="#midipacks" onClick={handleNav}>a link </Link>
+                    <Link href="/3dview" onClick={handleNav}>3D view</Link>
                 </li>
             </ul>
             </div>
