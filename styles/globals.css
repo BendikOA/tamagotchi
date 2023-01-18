@@ -1,26 +1,22 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+  font-family: "Raleway", sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@font-face {
+  font-family: "Sligoil-Micro";
+  src: url("../public/Sligoil-Micro.otf");
 }
 
-* {
-  box-sizing: border-box;
+@font-face {
+  font-family: "Facade-est";
+  src: url("../public/Facade-Est.otf");
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.custom-img3 {
+  background-image: url('../public/mobilemenu.webp')
 }
