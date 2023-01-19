@@ -13,9 +13,9 @@ const Footer = () => {
 
           <a href="https://www.linkedin.com/in/bendik-andersen" target="blank"><AiFillLinkedin /></a>
         </div> 
-              <p className='text-white align-center text-center	 text-sm max-w-[35%]  mx-auto p-5 mt-5'> This page is purely to practice, display and explore front-end webdev in React.
+              <p className='text-white align-center text-center	 text-sm lg:max-w-[35%]  mx-auto p-5 mt-5'> This page is purely to practice, display and explore front-end webdev in React.
          
-          </p>   <p className="pb-8 text-center text-xs text-white max-w-[50%] mx-auto">All art with the exception of the 3 icons from react-icons/ai library and the pixel-art on the screens are created by me.</p> 
+          </p>   <p className="pb-8 text-center text-xs text-white  max-w-[90%] lg:max-w-[50%] mx-auto">All art with the exception of the 3 icons from react-icons/ai library and the pixel-art on the screens are created by me.</p> 
             </div>
             <section>
 
