@@ -23,16 +23,16 @@ const Hero4 = () => {
     transition={{ delay: 0.5, duration: 1}}
     className='overflow-hidden pt-[40px] pb-[0px] min-h-screen'>
       
-      <m.div className="my-0 lg:mx-36 ">
-      <div className="relative flex flex-col  lg:gap-[200px] py-5 lg:flex-row md:flex-row md:flex-wrap lg:flex-wrap justify-center lg:mb-8">
+      <m.div className="my-0 xl:mx-12 2xl:mx-36 ">
+      <div className="relative flex flex-col  2xl:gap-[200px] py-5 lg:flex-row md:flex-row md:flex-wrap lg:flex-wrap justify-center lg:mb-8">
 
-      <div className='basis-1/3 flex max-w-[100%] p-5 lg:max-w-[70%]  mb-6 ml-2 lg:ml-0'>
+      <div className='basis-1/2 2xl:basis-1/3 flex max-w-[100%] p-5 lg:max-w-[70%]  mb-6 ml-2 lg:ml-0'>
           <p className='text-md font-medium lg:leading-9 font-fancy1 lg:mt-8' data-aos="fade-down" delay="800">The success of the Tamagotchi was short-lived. The toy broke onto the scene in 1996, yet its heyday was over just two years later, by the spring of 1998. The images below are designed with the 90's nostalgic features but also with a modern reimagination. All art except the pixel-display is done by me. The axolotl is done by Oomles but found as an uncredited recoloring of the original. The clodsire pixel art I believe is from muoi_art.<br></br>
           <span className='font-bold'>Drag the slideshow below to reveal more styles</span>
 
           </p>
           </div>
-          <video className="basis-1/3 flex mx-auto max-w-[90%] md:max-w-[50%] border-4 border-black rounded-3xl shadow-lg mb-[10px]" src="./ad.mp4" type="video/mp4" autoPlay muted loop data-aos="fade-up"></video>
+          <video className="basis-1/2 2xl:basis-1/3 flex mx-auto max-w-[90%] md:max-w-[50%] 2xl:border-4 border-black rounded-3xl 2xl:shadow-lg mb-[10px]" src="./ad.mp4" type="video/mp4" autoPlay muted loop data-aos="fade-up"></video>
           
           </div>
          <m.div ref={carousel} className="carousel cursor-grab overflow-hidden mt-[-50px]" whileTap={{cursor: "grabbing"}}> 
